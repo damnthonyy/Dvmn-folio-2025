@@ -1,0 +1,15 @@
+@use "./Variable.scss" as c;
+@use "./fonts";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: c.$font-inconsolata;
+    box-sizing: border-box;
+    background-color: black;
+    color: White;
+}
