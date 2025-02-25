@@ -1,0 +1,52 @@
+@use "../../assets/styles/Variable.scss" as c;
+
+.navBar {
+    display: flex;
+    padding: 30px 14px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-style {
+    text-transform: uppercase;
+    font-size: c.$font-size-200;
+    font-weight: 400px;
+}
+
+.email {
+    font-size: c.$font-size-200;
+    text-decoration: underline;
+    font-weight: 400;
+    color: c.$white-color;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.style-link {
+    font-size: c.$font-size-200;
+    font-weight: 400;
+    color: c.$white-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.nav-link a.active {
+    color: c.$white-color;
+    padding-bottom: 10px;
+
+}

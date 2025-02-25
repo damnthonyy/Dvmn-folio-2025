@@ -1,2 +1,20 @@
 // 📌 Variables de polices
 $font-inconsolata: "Inconsolata", monospace;
+
+
+// 📐 Font sizes basées sur un ratio modulaire
+$font-size-100: 0.64rem; // (10px)
+$font-size-200: 0.8rem; // (12px)
+$font-size-300: 1rem; // (16px)
+$font-size-400: 1.25rem; // (20px)
+$font-size-500: 1.563rem; // (25px)
+$font-size-600: 1.953rem; // (31px)
+$font-size-700: 2.441rem; // (39px)
+$font-size-800: 3.052rem; // (48px)
+
+
+// Color
+$white-color: #FFFF;
+$green-color: #26FF26;
+$yellow-color: #ffc107;
+$red-color: #f44336;

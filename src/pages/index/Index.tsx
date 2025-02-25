@@ -1,9 +1,26 @@
 import React from 'react'
 import "./Index.scss"
 export const Index: React.FC = () => {
+
+    const MetaData = "src/assets/image/image-me.jpg"
+
     return (
-        <>
-            <h1> hero</h1>
-        </>
+        <div className='container'>
+            <div className='content'>
+                <span className='title'>
+                    creative front-end developer
+                </span>
+                <span className='title'>
+                    &
+                </span>
+                <span className='title'>
+                    Design ux/ui
+                </span>
+            </div>
+            <div className='container-image'>
+                <img src={MetaData} alt='photo-antoine' className='image' />
+            </div>
+
+        </div>
     )
 }

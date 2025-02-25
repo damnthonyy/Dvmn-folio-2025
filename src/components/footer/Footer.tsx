@@ -4,7 +4,14 @@ import "./Footer.scss"
 export const Footer: React.FC = () => {
     return (
         <>
-            <h1> ceci est le footer</h1>
+            <div className='footer'>
+                <span className='style-footer'>
+                    Antoine mahassadi 2025
+                </span>
+                <span className='style-footer'>
+                    back to top
+                </span>
+            </div>
         </>
     )
 }

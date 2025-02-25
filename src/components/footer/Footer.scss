@@ -1,0 +1,14 @@
+@use "../../assets/styles/Variable.scss" as c;
+
+.footer {
+    padding: 30px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.style-footer {
+    font-size: c.$font-size-200;
+    text-transform: uppercase;
+    font-weight: 400;
+}

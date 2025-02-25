@@ -1,0 +1,14 @@
+@use "../../assets/styles/Variable.scss" as c;
+
+.wrapper-time {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.time-style {
+    font-size: c.$font-size-200;
+    font-weight: 400;
+    width: fit-content;
+    height: fit-content;
+}
