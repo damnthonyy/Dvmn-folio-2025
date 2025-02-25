@@ -6,7 +6,7 @@ export const Index: React.FC = () => {
 
     return (
         <div className='container'>
-            <div className='content'>
+            <div className='content-title'>
                 <span className='title'>
                     creative front-end developer
                 </span>

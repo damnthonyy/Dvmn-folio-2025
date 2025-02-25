@@ -5,7 +5,6 @@
     padding: 30px 14px;
     position: sticky;
     top: 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     z-index: 100;
 }
 
@@ -46,7 +45,6 @@
 }
 
 .nav-link a.active {
-    color: c.$white-color;
-    padding-bottom: 10px;
+    border-bottom: 1px solid c.$white-color ;
 
 }

@@ -1,0 +1,24 @@
+@use "../../assets/styles/Variable.scss" as c;
+
+.hero {
+    position: relative;
+    padding: 0px 14px;
+    display: flex;
+    height: 100vh;
+    text-align: right;
+    justify-content: end;
+}
+
+.title-hero {
+    position: absolute;
+    font-size: c.$font-size-900;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: max-content;
+    bottom: 15vh;
+}
+
+.story-tell {
+    height: 100vh;
+    background-color: #141414;
+}

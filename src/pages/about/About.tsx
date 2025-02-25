@@ -3,7 +3,13 @@ import "./About.scss"
 export const About: React.FC = () => {
     return (
         <>
-            <h1> About</h1>
+            <div className='hero'>
+                <span className='title-hero'> who is he ? </span>
+            </div>
+            <div className='story-tell'>
+
+            </div>
+
         </>
     )
 }
