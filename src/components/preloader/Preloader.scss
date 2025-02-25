@@ -1,0 +1,16 @@
+@use "../../assets/styles/Variable.scss" as c;
+
+.preload-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.title-preload {
+    padding-top: 50vh;
+    font-size: c.$font-size-200;
+    font-weight: 400;
+    text-transform: uppercase;
+}
