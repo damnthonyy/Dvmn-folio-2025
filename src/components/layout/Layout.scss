@@ -4,6 +4,29 @@
     min-height: 100vh; // Prend toute la hauteur de la fenêtre
 }
 
+.grid-template {
+
+    pointer-events: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    gap: min(8px, 0.5vw);
+    padding: 0 2vw;
+    /* z-index: 999999; */
+
+    div {
+        width: 100%;
+        background-color: #DDDCDC;
+        opacity: 0.2;
+    }
+
+}
+
 .content {
     flex: 1; // Prend tout l'espace disponible entre la navbar et le footer
 }

@@ -23,7 +23,20 @@ const Layout = () => {
     }, [location.pathname]);
 
     return (
+
         <div className="view">
+            <div className='grid-template'>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <Preloader isLoading={isLoading} />
             <Navbar />
             <main className="content">
