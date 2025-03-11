@@ -17,7 +17,7 @@ export const Index: React.FC = () => {
                     Design ux/ui
                 </span>
             </div>
-            <div className='container-image'>
+            <div className='container-image-hero'>
                 <img src={MetaData} alt='photo-antoine' className='image' />
             </div>
 

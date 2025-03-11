@@ -45,7 +45,31 @@ export const Navbar: React.FC = () => {
                     <span className='menu-style'>menu</span>
                 </button>
                 <div className={`menu-mobile ${isMenuOpen ? 'open' : ''}`}>
-                    <h1> Menu</h1>
+                    <div className='wrapper-menu-mobile'>
+
+                        <div className='nav-link-mobile'>
+                            <NavLink to="/Works"> <span className='style-link'>Works</span> </NavLink>
+                            <NavLink to="/About"> <span className='style-link'>Who is he ?</span> </NavLink>
+                            <NavLink to="/"> <span className='style-link'>Index</span> </NavLink>
+                        </div>
+
+                        <div className='nav-contact-mobile'>
+
+                            <Link to="dmantoinepro@gmail.com">
+                                <span className='email'> dmantoinepro@gmail.com</span>
+                            </Link>
+
+                            <div className='wrapper-availability'>
+                                <div className='wrapper-two-status'>
+                                    <StatusType status={status} />
+                                </div>
+                            </div>
+
+                            <Hours />
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </>

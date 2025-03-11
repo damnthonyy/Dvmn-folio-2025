@@ -136,5 +136,58 @@
         z-index: 999;
         background: #141414;
 
+        .wrapper-menu-mobile {
+            padding: 0 3vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100%;
+
+            .nav-link-mobile {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                .style-link {
+                    font-size: c.$font-size-500;
+                    font-weight: 400;
+                    color: c.$white-color;
+                    text-transform: uppercase;
+                }
+
+                .style-link.active {
+                    border-bottom: 1px solid c.$white-color;
+                }
+
+            }
+
+            .nav-contact-mobile {
+                display: flex;
+                /* text-align: right; */
+                // à revoir
+                flex-direction: column;
+                gap: 2rem;
+
+                .email {
+                    padding: 0;
+                }
+
+                .wrapper-time {
+                    width: 100%;
+
+                    .time-style {
+                        width: 100%;
+                    }
+                }
+
+                .wrapper-availability {
+                    width: 100%;
+
+                    .status-wrapper {}
+
+                    .wrapper-status {}
+                }
+            }
+        }
     }
 }

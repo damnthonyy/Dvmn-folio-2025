@@ -24,7 +24,7 @@
     font-weight: 400;
 }
 
-.container-image {
+.container-image-hero {
     position: relative;
     width: 228px;
     height: 279px;
@@ -41,10 +41,10 @@
 @media (max-width: 768px) {
 
     .container {
-        padding-top: 30%;
+        padding-top: 20%;
     }
 
-    .container-image {
+    .container-image-hero {
         width: 135px;
         height: 166px;
     }
