@@ -1,18 +1,18 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
+/* import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react"; */
 import "./Layout.scss";
 import { Outlet } from "react-router-dom";
 import { Navbar } from "../navbar/Navbar";
 import { Footer } from "../footer/Footer";
-import { Preloader } from "../preloader/Preloader";
+/* import { Preloader } from "../preloader/Preloader"; */
 
 const Layout = () => {
 
-    const location = useLocation();
-    const [isLoading, setIsLoading] = useState(false);
+    /* const location = useLocation();
+    const [isLoading, setIsLoading] = useState(false); */
 
-    useEffect(() => {
+    /* useEffect(() => {
         setIsLoading(true);
 
         const timeout = setTimeout(() => {
@@ -20,7 +20,7 @@ const Layout = () => {
         }, 1000); // Durée du préloader (1 seconde)
 
         return () => clearTimeout(timeout);
-    }, [location.pathname]);
+    }, [location.pathname]); */
 
     return (
 
@@ -37,7 +37,7 @@ const Layout = () => {
                 <div></div>
                 <div></div>
             </div>
-            <Preloader isLoading={isLoading} />
+            {/* <Preloader isLoading={isLoading} /> */}
             <Navbar />
             <main className="content">
                 <Outlet /> {/* Affiche la page sélectionnée */}

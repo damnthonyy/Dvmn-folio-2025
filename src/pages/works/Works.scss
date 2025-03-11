@@ -1,0 +1,31 @@
+@use "../../assets/styles/Variable.scss" as c;
+
+.works-wrapper {
+    margin-top: 5rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.data-card {
+    padding: 0 2vw;
+}
+
+.wrapper-project {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    column-gap: min(8px, 0.5vw);
+    width: 100%;
+}
+
+.link-projet-a {
+    grid-column: 3;
+}
+
+.link-projet-b {
+    grid-column: 5;
+}
+
+.link-projet-c {
+    grid-column: -4;
+}

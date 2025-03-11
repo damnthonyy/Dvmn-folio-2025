@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "name": "Projet-A",
+        "tech": "front",
+        "description": "Description détaillée du projet A, ses objectifs et ses technologies.",
+        "image": "https://images.pexels.com/photos/30774440/pexels-photo-30774440/free-photo-of-le-vieux-tallinn.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+    },
+    {
+        "id": "2",
+        "name": "Projet-B",
+        "tech": "ux/ui",
+        "description": "Description détaillée du projet B avec focus sur l'expérience utilisateur.",
+        "image": "https://cdn.cosmos.so/600a1fda-ad82-4f95-b2be-9df72595374e?format=jpeg"
+    },
+    {
+        "id": "2",
+        "name": "Projet-C",
+        "tech": "ux/ui",
+        "description": "Description détaillée du projet B avec focus sur l'expérience utilisateur.",
+        "image": "https://cdn.cosmos.so/fa70281b-ffc9-406c-9863-64366e65f63b?format=jpeg"
+    }
+]

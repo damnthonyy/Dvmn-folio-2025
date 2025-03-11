@@ -7,8 +7,8 @@
 .grid-template {
 
     pointer-events: none;
-    display: flex;
-    position: fixed;
+    display: none;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
