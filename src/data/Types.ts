@@ -4,5 +4,6 @@ export interface Project {
     tech: string;
     type: "FRONT END" | "BACK END" | "UX/UI";
     description: string;
+    date: string;
     image: string;
 }

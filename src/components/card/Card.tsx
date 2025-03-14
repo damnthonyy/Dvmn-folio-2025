@@ -6,12 +6,14 @@ interface CardProps {
     tech: string;
     image: string;
     className?: string;
+    width?: string;
+    height?: string;
     onClick?: () => void;
 }
-export const Card: React.FC<CardProps> = ({ name, tech, image, className, onClick }) => {
+export const Card: React.FC<CardProps> = ({ name, tech, image, className, onClick, width, height }) => {
     return (
         <div className={`container-card  ${className ? className : ''}`} onClick={onClick}>
-            <div className='container-image'>
+            <div className='container-image' style={{ width: width, height: height }}>
                 <img src={image} alt={name} className='style-image' />
             </div>
             <div className='container-description'>

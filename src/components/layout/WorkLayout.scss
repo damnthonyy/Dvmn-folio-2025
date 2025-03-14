@@ -1,1 +1,40 @@
 @use "../../assets/styles/Variable.scss" as c;
+
+.work-details {
+    padding: 0 2rem;
+}
+
+.container-work-detail {
+    margin-top: 4rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.container-work-detail-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+
+    .container-work-detail-right-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .style-title-context {
+            font-size: c.$font-size-300;
+            font-weight: 400;
+            text-transform: uppercase;
+
+        }
+
+        .style-description-context {
+            font-size: c.$font-size-200;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+    }
+
+}

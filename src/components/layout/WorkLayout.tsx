@@ -16,13 +16,30 @@ export const WorkLayout: React.FC = () => {
 
     return (
         <div className={`work-details ${detailClass}`}>
-            <Card
-                name={project.name}
-                tech={project.tech}
-                image={project.image}
-            />
+            <div className='container-work-detail'>
+                <Card
+                    name={project.name}
+                    tech={project.tech}
+                    image={project.image}
+                    width="110px"
+                    height="162px"
+                />
+                <div className='container-work-detail-right'>
+                    <div className='container-work-detail-right-content'>
+                        <span className='style-title-context'>Context</span>
+                        <p className='style-description-context'>{project.description}</p>
+                    </div>
+                    <div className='container-work-detail-right-content'>
+                        <span className='style-title-context'>Date</span>
+                        <p className='style-description-context'>{project.date}</p>
+                    </div>
 
-            <p> {project.description}</p>
+
+                </div>
+            </div>
+
+
+
         </div>
     )
 }

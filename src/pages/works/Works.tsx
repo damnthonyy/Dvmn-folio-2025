@@ -25,6 +25,8 @@ export const Works: React.FC = () => {
                                     name={project.name}
                                     tech={project.tech}
                                     image={project.image}
+                                    width="276px"
+                                    height="361px"
                                 />
                             </Link>
                         );
